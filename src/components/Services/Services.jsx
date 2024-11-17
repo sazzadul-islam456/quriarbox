@@ -1,5 +1,7 @@
 import React from "react";
-import icon from "../../assets/icon1.png";
+import icon1 from "../../assets/icon1.png";
+import icon2 from "../../assets/icon2.png";
+import icon3 from "../../assets/icon3.png";
 import { MdStar } from "react-icons/md";
 
 const Services = () => {
@@ -20,7 +22,7 @@ const Services = () => {
           <div className="w-[424px] h-[583px] bg-white rounded-[16px]">
             <div className="flex flex-col items-center">
               <div className="pt-8 flex justify-center">
-                <img src={icon} alt="" className="mx-auto" />
+                <img src={icon1} alt="" className="mx-auto" />
               </div>
               <p className="font-primary-font font-extrabold text-[25px] text-[#464558] py-[25px]">
                 Business Services
@@ -58,7 +60,7 @@ const Services = () => {
           <div className="w-[424px] h-[583px] bg-white rounded-[16px]">
             <div className="flex flex-col items-center">
               <div className="pt-8 flex justify-center">
-                <img src={icon} alt="" className="mx-auto" />
+                <img src={icon2} alt="" className="mx-auto" />
               </div>
               <p className="font-primary-font font-extrabold text-[25px] text-[#464558] py-[25px]">
                 Business Services
@@ -96,7 +98,7 @@ const Services = () => {
           <div className="w-[424px] h-[583px] bg-white rounded-[16px]">
             <div className="flex flex-col items-center">
               <div className="pt-8 flex justify-center">
-                <img src={icon} alt="" className="mx-auto" />
+                <img src={icon3} alt="" className="mx-auto" />
               </div>
               <p className="font-primary-font font-extrabold text-[25px] text-[#464558] py-[25px]">
                 Business Services
